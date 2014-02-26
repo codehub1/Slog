@@ -11,9 +11,18 @@
     <ListView
         android:id="@+id/call"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true" >
+        android:layout_height="wrap_content" >
+
     </ListView>
+
+    <Button
+        android:id="@+id/postlog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/call"
+        android:layout_marginRight="19dp"
+        android:onClick="postData"
+        android:text="Send" />
 
 </RelativeLayout>
